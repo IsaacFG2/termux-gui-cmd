@@ -1,6 +1,6 @@
 Install with following command: 
 ```bash
-wget https://raw.githubusercontent.com/IsaacFG2/termux-gui-cmd/refs/heads/main/install.sh && chmod +rwx install.sh && ./install.sh && rm -rf install.sh
+curl https://raw.githubusercontent.com/IsaacFG2/termux-gui-cmd/refs/heads/main/install.sh | bash
 ```
 After that install the following app: 
 https://github.com/termux/termux-x11/releases/tag/nightly
