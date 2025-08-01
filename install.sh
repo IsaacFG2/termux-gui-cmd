@@ -3,7 +3,7 @@ cd ~/
 pkg install x11-repo -y
 pkg install termux-x11-nightly -y
 pkg install xfce4 -y
-cd ../
+cd ../usr/
 curl https://raw.githubusercontent.com/IsaacFG2/termux-gui-cmd/refs/heads/main/gui > gui
 mv gui ./bin
 chmod +rwx ./bin/gui
