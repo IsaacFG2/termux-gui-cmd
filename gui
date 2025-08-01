@@ -1,3 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/bash
 killall /system/bin/app_process
 termux-x11 :0 > /dev/null &
 sleep 5
